@@ -1,0 +1,131 @@
+#Menu font #333333
+#Menu background #ffffff
+#Menu separator #d9d9d9
+#use DejaVu Sans 13 px
+#google green #53a93f
+
+#Zero borders
+
+border.width:      0
+menu.border.width: 0
+osd.border.width:  0
+
+
+#Windows
+
+##padding
+padding.width:                                  9
+
+##title colours
+window.active.title.bg:                         Solid Flat
+window.active.title.bg.color:                   #404040
+window.inactive.title.bg:                       Solid Flat
+window.inactive.title.bg.color:                 #404040
+window.active.label.bg:                         Solid Flat
+window.active.label.bg.color:                   #404040
+window.inactive.label.bg:                       Solid Flat
+window.inactive.label.bg.color:                 #404040
+window.active.label.text.color:                 #ffffff
+window.inactive.label.text.color:               #ffffff
+
+##buttons
+
+###unpressed button colours
+
+####icon colour
+window.active.button.unpressed.image:           Solid Flat
+window.active.button.unpressed.image.color:     #b3b3b3
+window.inactive.button.unpressed.image:         Solid Flat
+window.inactive.button.unpressed.image.color:   #b3b3b3
+
+####background
+window.active.button.unpressed.bg:              Solid Flat
+window.active.button.unpressed.bg.color:        #404040
+window.inactive.button.unpressed.bg:            Solid Flat
+window.inactive.button.unpressed.bg.color:      #404040
+
+###button colours on hover
+
+####icon colour
+window.active.button.hover.image:               Solid Flat
+window.active.button.hover.image.color:         #ffffff
+window.inactive.button.hover.image:             Solid Flat
+window.inactive.button.hover.image.color:       #ffffff
+
+####background
+window.active.button.hover.bg:                  Solid Flat
+window.active.button.hover.bg.color:            #737373
+window.inactive.button.hover.bg:                Solid Flat
+window.inactive.button.hover.bg.color:          #737373
+
+###button colours on press
+
+####icon colour
+window.active.button.pressed.image:             Solid Flat
+window.active.button.pressed.image.color:       #ffffff
+window.inactive.button.pressed.image:           Solid Flat
+window.inactive.button.pressed.image.color:     #ffffff
+
+####background
+window.active.button.pressed.bg:                Solid Flat
+window.active.button.pressed.bg.color:          #737373
+window.inactive.button.pressed.bg:              Solid Flat
+window.inactive.button.pressed.bg.color:        #737373
+
+##zero inside padding
+window.client.padding.width:                    0
+window.client.padding.height:                   0
+
+##zero bottom 'handle'
+window.handle.width:                            0
+
+
+#Menus
+
+##menu colours
+
+###text, separator
+menu.title.text.color:                  #333333
+menu.items.text.color:                  #333333
+menu.items.disabled.text.color:         #333333
+menu.items.active.text.color:           #333333
+menu.items.active.disabled.text.color:  #333333
+menu.separator.color:                   #ebebeb
+
+###background
+menu.items.bg:                          Solid Flat
+menu.items.bg.color:                    #ffffff
+menu.items.active.bg:                   Solid Flat
+menu.items.active.bg.color:             #eeeeee
+menu.title.bg:                          Solid Flat
+menu.title.bg.color:                    #ffffff
+
+##single pixel separator
+menu.separator.width:                   1
+
+
+#On Screen Dialogs (OSD)
+
+##OSD colours
+
+###text
+osd.label.text.color:   #cccccc
+
+###background
+
+####bg of desktop switcher and window switcher
+osd.bg:                 Solid Flat
+osd.bg.color:           #404040
+
+####bg of 'desktop %d' label on desktop switcher and
+####bg of unselected windows in window switcher
+osd.label.bg:           Solid Flat
+osd.label.bg.color:     #404040
+
+####colour of selected desktop bump
+osd.hilight.bg:         Solid Flat
+osd.hilight.bg.color:   #53a93f
+
+####colour of unselected desktop bumps
+osd.unhilight.bg:       Solid Flat
+osd.unhilight.bg.color: #333333
